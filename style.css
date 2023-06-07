@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149146010.jpg?w=1060&t=st=1686153511~exp=1686154111~hmac=8c313b0ee44fffaea89eeab1211b6c4e6264a84ef21ade0c007e3e146bfe9e00");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgrey;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+
+#nav {
+  width:750px;
+  margin:0 auto;
+  list-style:none;
+}
+
+#nav li {
+  float:left;
+}
+
+#nav a {
+  display:block;
+  text-align:center;
+  width:150px; /* fixed width */
+  text-decoration:none; 
+}
+
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  } 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-size: 20px;
+    font-weight: 500;
+    color: lightgray;
+}
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
