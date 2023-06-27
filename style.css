@@ -1,18 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100&display=swap');
+
 body {
-    background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149146010.jpg?w=1060&t=st=1686153511~exp=1686154111~hmac=8c313b0ee44fffaea89eeab1211b6c4e6264a84ef21ade0c007e3e146bfe9e00");
-    background-size: cover;
+  background-color: black;
+  background-size: cover;
 }
 
 .header {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: lightgrey;
-}
-
-.name {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: lightgray;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: whitesmoke;
 }
 
 #nav {
@@ -28,7 +24,7 @@ body {
 #nav a {
   display:block;
   text-align:center;
-  width:150px; /* fixed width */
+  width:100px; /* fixed width */
   text-decoration:none; 
 }
 
@@ -46,6 +42,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Ysabeau SC', sans-serif;
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -54,14 +51,14 @@ body {
   }
 
 .intro {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Ysabeau SC', sans-serif;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
     font-size: 20px;
     font-weight: 500;
-    color: lightgray;
+    color: whitesmoke;
 }
 
 .headshot {
@@ -70,3 +67,79 @@ body {
     margin-right: auto;
     width: 45%;
 }
+
+/* CSS for resume.html */
+
+.header-resume {
+  text-align: center;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: lightgrey;
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+/* CSS for about.html */
+
+.header-about {
+  text-align: center;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: whitesmoke;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fishing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.guitar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.lacrosse {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* CSS for projects.html */
+
+.header-projects {
+  text-align: center;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: whitesmoke;
+}
+
+.dataScience-header {
+  color: lightgrey;
+}
+
+.websites {
+  color: lightgrey;
+}
+
+.javascript {
+  color: lightgrey;
+}
+
