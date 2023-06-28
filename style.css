@@ -17,14 +17,15 @@ body {
   list-style: none;
   background-color: black;
   align-content: center;
+  text-align: center;
 }
 
 #nav li {
-  float: left;
+  display: inline-block;
 }
 
 #nav a {
-  display: block;
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   width: 100px;
