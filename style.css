@@ -5,32 +5,34 @@ body {
   background-size: cover;
 }
 
-.header {
-    text-align: center;
-    font-family: 'Ysabeau SC', sans-serif;
-    color: whitesmoke;
-}
-
 /* NAV BAR CODE */
+
+.header {
+  float: left;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: whitesmoke;
+  margin-left: 15px;
+}
 
 #nav {
   width: auto;
   margin: 0 auto;
-  list-style: none;
   background-color: black;
-  align-content: center;
-  text-align: center;
 }
 
 #nav li {
-  display: inline-block;
+  display: block;
+  text-align: center;
+  float: right;
+  height: auto;
 }
 
 #nav a {
-  display: inline-block;
+  display: block;
   text-align: center;
   text-decoration: none;
   width: 100px;
+  align-content: center;
 }
 
   ul {
@@ -42,18 +44,21 @@ body {
   } 
   
   li a {
-    display: block;
+    display: inline;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Ysabeau SC', sans-serif;
   }
-  
+
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: gray;
   }
+
+
+
 
 .intro {
     font-family: 'Ysabeau SC', sans-serif;
@@ -103,21 +108,28 @@ body {
 
 /* CSS for resume.html */
 
+.container-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
 .header-resume {
-  text-align: center;
+  text-align: left;
   font-family: 'Ysabeau SC', sans-serif;
   color: lightgrey;
+  float: left;
 }
 
 .resume {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
+  width: 40%;
+  height: 40%;
+  align-content: right;
 }
 
 .download {
-  text-align: center;
+  text-align: left;
+  float: left;
 }
 
 /* CSS for about.html */
